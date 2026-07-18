@@ -1,0 +1,5 @@
+wairing esp32 to layar st7789
+scl d18
+sda d23
+res d4
+dc d2 
