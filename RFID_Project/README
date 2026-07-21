@@ -1,0 +1,29 @@
+terdapat beberapa project di dalam folder ini mulai dari 
+1. uji coba rfid
+2. Rfid dengan layar lcd oled st7789
+3. rfid dengan esp32s3
+3. final project 
+
+wairing pin di User_Setup.h di esp32 classic
+# // #define TFT_MOSI 23 // In some display driver board, it might be written as "SDA" and so on.
+# // #define TFT_SCLK 18
+# // #define TFT_CS   -1  // Chip select control pin
+# // #define TFT_DC   2  // Data Command control pin
+# // #define TFT_RST  4 // Reset pin (could connect to Arduino RESET pin)
+# // #define TFT_BL   15  // LED back-light
+
+
+wairing pin di User_Setup.h di esp32s3
+# define TFT_MOSI 11
+# define TFT_SCLK 12
+# define TFT_CS   -1  // tetap -1, layar kamu tanpa pin CS
+# define TFT_DC   10
+# define TFT_RST  9
+# define TFT_BL   8
+
+KOMPONEN YANG DIBUTUHKAN 
+1. ESP32S3
+2. ESP32 CLASSIC
+3. BUTTON 
+4. RFID-RC522
+5. LCD ST7789 240*240 INC
